@@ -1,5 +1,6 @@
 // import React from 'react';
 import { useEffect, useState } from "react";
+import Blog from "../Blog/Blog";
 
 const Blogs = () => {
 
@@ -15,6 +16,13 @@ const Blogs = () => {
     return (
         <div className="w-2/3">
             <p>Blogs : {blogs.length}</p>
+            {
+                blogs.map(blog=><Blog blog={blog} ></Blog>
+                    // console.log(blog);
+                    
+                
+                )
+            }
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+// "authorimg": "https://i.ibb.co.com/LhQJjtjR/bike-shop-with-shop-assistant.jpg",
 import './App.css'
 import Header from './Components/header/Header'
 import Blogs from './Components/Blogs/Blogs'
@@ -23,5 +23,6 @@ function App() {
     </>
   )
 }
+
 
 export default App
