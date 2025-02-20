@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co.com/fGG95K7X/2364520.jpg",
+      "title": "The Future of Web Development",
+      "author": "John Doe",
+      "author-img": "https://i.ibb.co.com/1t00Yb2h/blonde-artist-holds-palette-brushes-looks-positive-dedicated.jpg",
+      "posted-date": "2025-02-20",
+      "reading-time": "5 min",
+      "hashtags": ["#WebDevelopment", "#TechTrends", "#JavaScript"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co.com/3mPTzQMW/415493-PE5-HUX-928.jpg",
+      "title": "AI and Its Impact on Society",
+      "author": "Jane Smith",
+      "author-img": "https://i.ibb.co.com/2YYVCpfQ/young-adult-businessman-studying-library-holding-book-generated-by-artificial-intelligence.jpg",
+      "posted-date": "2025-02-18",
+      "reading-time": "8 min",
+      "hashtags": ["#ArtificialIntelligence", "#MachineLearning", "#FutureTech"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co.com/M5MPBzDk/9920.jpg",
+      "title": "Top 10 Programming Languages in 2025",
+      "author": "Alice Johnson",
+      "author-img": "https://i.ibb.co.com/LhQJjtjR/bike-shop-with-shop-assistant.jpg",
+      "posted-date": "2025-02-15",
+      "reading-time": "7 min",
+      "hashtags": ["#Programming", "#Coding", "#SoftwareDevelopment"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co.com/ZR01kfnm/rm347-sasi-socialmedia-15.jpg",
+      "title": "How to Build Scalable Web Applications",
+      "author": "Michael Brown",
+      "author-img": "https://i.ibb.co.com/tpPccPnG/pensive-female-student-sitting-table-with-books.jpg",
+      "posted-date": "2025-02-12",
+      "reading-time": "6 min",
+      "hashtags": ["#WebApps", "#Scalability", "#CloudComputing"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co.com/0ppY0ZF2/OMHWPG0.jpg",
+      "title": "Cybersecurity Trends to Watch in 2025",
+      "author": "Emily Davis",
+      "author-img": "https://i.ibb.co.com/W4h1PZVr/young-beautiful-woman-working-with-cup-coffee-notebook-loft-office.jpg",
+      "posted-date": "2025-02-10",
+      "reading-time": "9 min",
+      "hashtags": ["#Cybersecurity", "#DataProtection", "#OnlineSafety"]
+    }
+  ]
+  

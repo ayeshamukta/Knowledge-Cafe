@@ -3,7 +3,8 @@
 const Header = () => {
     return (
         <div>
-            <p className="text-5xl">Tailwind Connected</p>
+            <h1 className="text-4xl font-bold">Knowledge Cafe</h1>
+            
         </div>
     );
 };

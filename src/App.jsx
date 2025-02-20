@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       
-      <h1>I am from App Jsx</h1>
+      
       <Header></Header>
       
     </>
