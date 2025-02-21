@@ -1,12 +1,13 @@
 
 import PropTypes from 'prop-types';
 import './Blog.css'
-const Blog = ({blog}) => {
+import { FaBookmark } from "react-icons/fa";
+const Blog = ({blog,handleBookmark}) => {
     console.log(blog);
     const {cover,title,author,authorimg,posteddate,readingtime,hashtags} = blog;
     
     return (
-        <div className='my-[20px]'>
+        <div className='my-[20px] mb-12'>
             <img className='w-full h-[500px] object-cover rounded-lg' src={cover} alt="" />
             <div className='my-[10px] flex justify-between items-center'>
                 <div className='flex '>
@@ -17,7 +18,11 @@ const Blog = ({blog}) => {
 
                     </div>
                 </div>
-                <p>{readingtime}</p>
+                <div className='flex gap-3 justify-center text-xl items-center'>
+                    <p >{readingtime} </p>
+                    <button onClick={handleBookmark}><FaBookmark className='items-center text-blue-400'/></button>
+                </div>
+                
             </div>
             <div>
                 <h2 className='font-bold text-3xl'>{title}</h2>
