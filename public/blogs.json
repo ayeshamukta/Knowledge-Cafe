@@ -6,7 +6,7 @@
       "author": "John Doe",
       "authorimg": "https://i.ibb.co.com/1t00Yb2h/blonde-artist-holds-palette-brushes-looks-positive-dedicated.jpg",
       "posteddate": "2025-02-20",
-      "readingtime": "5 min",
+      "readingtime": 5 ,
       "hashtags": ["#WebDevelopment", "#TechTrends", "#JavaScript"]
     },
     {
@@ -16,7 +16,7 @@
       "author": "Jane Smith",
       "authorimg": "https://i.ibb.co.com/2YYVCpfQ/young-adult-businessman-studying-library-holding-book-generated-by-artificial-intelligence.jpg",
       "posteddate": "2025-02-18",
-      "readingtime": "8 min",
+      "readingtime": 8,
       "hashtags": ["#ArtificialIntelligence", "#MachineLearning", "#FutureTech"]
     },
     {
@@ -27,7 +27,7 @@
       "authorimg": "https://i.ibb.co.com/LhQJjtjR/bike-shop-with-shop-assistant.jpg",
       
       "posteddate": "2025-02-15",
-      "readingtime": "7 min",
+      "readingtime": 7,
       "hashtags": ["#Programming", "#Coding", "#SoftwareDevelopment"]
     },
     {
@@ -37,7 +37,7 @@
       "author": "Michael Brown",
       "authorimg": "https://i.ibb.co.com/tpPccPnG/pensive-female-student-sitting-table-with-books.jpg",
       "posteddate": "2025-02-12",
-      "readingtime": "6 min",
+      "readingtime": 6,
       "hashtags": ["#WebApps", "#Scalability", "#CloudComputing"]
     },
     {
@@ -47,7 +47,7 @@
       "author": "Emily Davis",
       "authorimg": "https://i.ibb.co.com/W4h1PZVr/young-beautiful-woman-working-with-cup-coffee-notebook-loft-office.jpg",
       "posteddate": "2025-02-10",
-      "readingtime": "9 min",
+      "readingtime": 9,
       "hashtags": ["#Cybersecurity", "#DataProtection", "#OnlineSafety"]
     }
   ]

@@ -2,8 +2,11 @@
 import PropTypes from 'prop-types';
 import './Blog.css'
 import { FaBookmark } from "react-icons/fa";
-const Blog = ({blog,handleBookmark}) => {
+const Blog = ({blog,handleBookmark,handleReadingTime}) => {
     // console.log(blog);
+    // console.log(handleBookmark);
+    // console.log(handleReadingTime);
+    
     const {cover,title,author,authorimg,posteddate,readingtime,hashtags} = blog;
     
     return (
@@ -19,7 +22,7 @@ const Blog = ({blog,handleBookmark}) => {
                     </div>
                 </div>
                 <div className='flex gap-3 justify-center text-xl items-center'>
-                    <p >{readingtime} </p>
+                    <p >{readingtime} min</p>
                     <button onClick={()=>handleBookmark(blog)}><FaBookmark className='items-center text-blue-400'/></button>
                 </div>
                 
@@ -30,7 +33,7 @@ const Blog = ({blog,handleBookmark}) => {
                     hashtags.map((tag,idx) => <a key={idx} href={tag}> {tag} </a>)
                 }
                 <br />
-                <button><a href="">Mark as Read</a></button>
+                <button onClick={()=>handleReadingTime(readingtime)} className='text-blue-800 underline font-bold'>Mark as Read</button>
             </div>
             
         </div>
@@ -39,7 +42,8 @@ const Blog = ({blog,handleBookmark}) => {
 
 Blog.propTypes={
     blog: PropTypes.object.isRequired,
-    handleBookmark: PropTypes.func
+    handleBookmark: PropTypes.func,
+    handleReadingTime: PropTypes.func,
 
 }
 
