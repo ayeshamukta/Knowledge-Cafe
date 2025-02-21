@@ -20,14 +20,20 @@ function App() {
     setBookmarks(updatedBookMarks);
   }
 
-  const handleReadingTime = time =>
+  const handleReadingTime = (id,time) =>
   {
     
     // console.log("Mark as read connected",blg);
-    console.log(time);
+    // console.log(time);
     
     setReadingtime(readingTime+time);
-
+    // console.log(id);
+    
+    //  handle removing
+    const newBookmarks = bookmarks.filter(bookmark=> bookmark.id !== id);
+    setBookmarks(newBookmarks);
+    // console.log(newBookmarks);
+    
     
   }
 

@@ -7,7 +7,7 @@ const Blog = ({blog,handleBookmark,handleReadingTime}) => {
     // console.log(handleBookmark);
     // console.log(handleReadingTime);
     
-    const {cover,title,author,authorimg,posteddate,readingtime,hashtags} = blog;
+    const {id,cover,title,author,authorimg,posteddate,readingtime,hashtags} = blog;
     
     return (
         <div className='my-[20px] mb-12'>
@@ -33,7 +33,7 @@ const Blog = ({blog,handleBookmark,handleReadingTime}) => {
                     hashtags.map((tag,idx) => <a key={idx} href={tag}> {tag} </a>)
                 }
                 <br />
-                <button onClick={()=>handleReadingTime(readingtime)} className='text-blue-800 underline font-bold'>Mark as Read</button>
+                <button onClick={()=>handleReadingTime(id,readingtime)} className='text-blue-800 underline font-bold'>Mark as Read</button>
             </div>
             
         </div>
@@ -47,4 +47,4 @@ Blog.propTypes={
 
 }
 
-export default Blog;
+export default Blog
