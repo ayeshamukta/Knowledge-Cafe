@@ -1,11 +1,16 @@
-import React from 'react';
+import PropTypes from "prop-types";
 
-const Bookmark = () => {
+const Bookmark = ({bookmark}) => {
+    console.log(bookmark);
+    const {title} = bookmark;
+    
     return (
-        <div className='w-1/3'>
-            <p>bookmark</p>
+        <div className="rounded p-2 font-bold text-4xl  bg-white my-6">
+            <h3>{title}</h3>
         </div>
     );
 };
-
+Bookmark.propTypes={
+    bookmark: PropTypes.object
+}
 export default Bookmark;

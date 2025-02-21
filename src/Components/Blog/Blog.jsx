@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Blog.css'
 import { FaBookmark } from "react-icons/fa";
 const Blog = ({blog,handleBookmark}) => {
-    console.log(blog);
+    // console.log(blog);
     const {cover,title,author,authorimg,posteddate,readingtime,hashtags} = blog;
     
     return (
@@ -20,7 +20,7 @@ const Blog = ({blog,handleBookmark}) => {
                 </div>
                 <div className='flex gap-3 justify-center text-xl items-center'>
                     <p >{readingtime} </p>
-                    <button onClick={handleBookmark}><FaBookmark className='items-center text-blue-400'/></button>
+                    <button onClick={()=>handleBookmark(blog)}><FaBookmark className='items-center text-blue-400'/></button>
                 </div>
                 
             </div>
@@ -38,7 +38,9 @@ const Blog = ({blog,handleBookmark}) => {
 };
 
 Blog.propTypes={
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleBookmark: PropTypes.func
+
 }
 
 export default Blog;

@@ -3,17 +3,20 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Components/header/Header'
 import Blogs from './Components/Blogs/Blogs'
-import Bookmark from './Components/BookMark/Bookmark'
+
+import BookMarks from './Components/BookMarks/Bookmarks'
 
 function App() {
   
 
-  const[bookmark,setBookmark] = useState([]);
+  const[bookmarks,setBookmarks] = useState([]);
 
-  const handleBookmark = id=>
+  const handleBookmark = blog=>
   {
-    console.log('clicked handle bookmark');
+    // console.log(blog);
     
+    const updatedBookMarks = [...bookmarks,blog];
+    setBookmarks(updatedBookMarks);
   }
   return (
     <>
@@ -22,7 +25,7 @@ function App() {
         <Header></Header>
         <div className='flex my-[10px]'>
           <Blogs handleBookmark={handleBookmark}></Blogs>
-          <Bookmark></Bookmark>
+          <BookMarks bookmarks={bookmarks}></BookMarks>
         </div>
       </div>
       
